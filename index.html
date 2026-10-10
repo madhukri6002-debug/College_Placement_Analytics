@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Placement Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- ── Sidebar ───────────────────────────────────────────────────── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-icon">📊</span>
+      <span class="brand-text">PlacementIQ</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#overview"   class="nav-item active" data-section="overview">
+        <span class="nav-icon">🏠</span><span class="nav-label">Overview</span>
+      </a>
+      <a href="#branches"   class="nav-item" data-section="branches">
+        <span class="nav-icon">🏫</span><span class="nav-label">Branch Analysis</span>
+      </a>
+      <a href="#recruiters" class="nav-item" data-section="recruiters">
+        <span class="nav-icon">🏢</span><span class="nav-label">Recruiters</span>
+      </a>
+      <a href="#cgpa"       class="nav-item" data-section="cgpa">
+        <span class="nav-icon">📈</span><span class="nav-label">CGPA vs Salary</span>
+      </a>
+      <a href="#students"   class="nav-item" data-section="students">
+        <span class="nav-icon">👥</span><span class="nav-label">Students</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <span class="sample-badge">⚠ Sample Data</span>
+    </div>
+  </aside>
+
+  <!-- ── Main wrapper ──────────────────────────────────────────────── -->
+  <div class="layout">
+
+    <!-- ── Topbar ──────────────────────────────────────────────────── -->
+    <header class="topbar">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <div class="topbar-title">
+        <h1>College Placement Analytics</h1>
+        <span class="topbar-sub">Academic Year 2023–24</span>
+      </div>
+      <div class="topbar-actions">
+        <span class="last-updated" id="lastUpdated"></span>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <!-- ── Page content ────────────────────────────────────────────── -->
+    <main class="content" id="mainContent">
+
+      <!-- ════ SECTION: Overview ══════════════════════════════════════ -->
+      <section id="overview" class="page-section">
+
+        <div class="section-header">
+          <h2 class="section-title">Overview</h2>
+          <p class="section-desc">Key placement metrics at a glance</p>
+        </div>
+
+        <!-- Summary cards -->
+        <div class="cards">
+          <div class="card card--blue">
+            <div class="card-icon">👨‍🎓</div>
+            <div class="card-body">
+              <div class="card-label">Total Students</div>
+              <div class="card-value" id="totalStudents">—</div>
+            </div>
+          </div>
+          <div class="card card--green">
+            <div class="card-icon">✅</div>
+            <div class="card-body">
+              <div class="card-label">Students Placed</div>
+              <div class="card-value" id="placedStudents">—</div>
+              <div class="card-sub" id="placementRate">—</div>
+            </div>
+          </div>
+          <div class="card card--orange">
+            <div class="card-icon">❌</div>
+            <div class="card-body">
+              <div class="card-label">Not Placed</div>
+              <div class="card-value" id="unplacedStudents">—</div>
+            </div>
+          </div>
+          <div class="card card--purple">
+            <div class="card-icon">💰</div>
+            <div class="card-body">
+              <div class="card-label">Avg Package</div>
+              <div class="card-value" id="avgPackage">—</div>
+              <div class="card-sub">LPA</div>
+            </div>
+          </div>
+          <div class="card card--teal">
+            <div class="card-icon">🏆</div>
+            <div class="card-body">
+              <div class="card-label">Highest Package</div>
+              <div class="card-value" id="highestPackage">—</div>
+              <div class="card-sub">LPA</div>
+            </div>
+          </div>
+          <div class="card card--indigo">
+            <div class="card-icon">📉</div>
+            <div class="card-body">
+              <div class="card-label">Lowest Package</div>
+              <div class="card-value" id="lowestPackage">—</div>
+              <div class="card-sub">LPA</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Offer split + placement donut row -->
+        <div class="charts-grid charts-grid--2">
+          <div class="chart-card">
+            <h3 class="chart-title">Placement Status</h3>
+            <div class="chart-wrap chart-wrap--sm"><canvas id="placementStatusChart"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title">Offer Type Split</h3>
+            <div class="chart-wrap chart-wrap--sm"><canvas id="offerTypeChart"></canvas></div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ════ SECTION: Branch Analysis ══════════════════════════════ -->
+      <section id="branches" class="page-section">
+
+        <div class="section-header">
+          <h2 class="section-title">Branch Analysis</h2>
+          <p class="section-desc">Placement rate and salary by engineering branch</p>
+        </div>
+
+        <div class="charts-grid charts-grid--2">
+          <div class="chart-card">
+            <h3 class="chart-title">Placement Rate by Branch (%)</h3>
+            <div class="chart-wrap"><canvas id="branchPlacementChart"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title">Average Package by Branch (LPA)</h3>
+            <div class="chart-wrap"><canvas id="branchSalaryChart"></canvas></div>
+          </div>
+        </div>
+
+        <!-- Branch summary mini-table -->
+        <div class="chart-card">
+          <h3 class="chart-title">Branch Summary Table</h3>
+          <div class="table-wrap">
+            <table id="branchTable">
+              <thead>
+                <tr>
+                  <th>Branch</th>
+                  <th>Total</th>
+                  <th>Placed</th>
+                  <th>Rate (%)</th>
+                  <th>Avg LPA</th>
+                  <th>Highest LPA</th>
+                </tr>
+              </thead>
+              <tbody id="branchTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ════ SECTION: Recruiters ════════════════════════════════════ -->
+      <section id="recruiters" class="page-section">
+
+        <div class="section-header">
+          <h2 class="section-title">Company Recruitment Trends</h2>
+          <p class="section-desc">Top companies and how many students they hired</p>
+        </div>
+
+        <div class="chart-card">
+          <h3 class="chart-title">Top 15 Recruiters</h3>
+          <div class="chart-wrap chart-wrap--tall"><canvas id="recruitersChart"></canvas></div>
+        </div>
+
+      </section>
+
+      <!-- ════ SECTION: CGPA vs Salary ════════════════════════════════ -->
+      <section id="cgpa" class="page-section">
+
+        <div class="section-header">
+          <h2 class="section-title">CGPA vs Salary</h2>
+          <p class="section-desc">Correlation between academic performance and salary package</p>
+        </div>
+
+        <div class="chart-card">
+          <h3 class="chart-title">CGPA vs Package (LPA) — Placed Students</h3>
+          <div class="chart-wrap chart-wrap--xl"><canvas id="cgpaSalaryChart"></canvas></div>
+        </div>
+
+      </section>
+
+      <!-- ════ SECTION: Students ══════════════════════════════════════ -->
+      <section id="students" class="page-section">
+
+        <div class="section-header">
+          <h2 class="section-title">Student Records</h2>
+          <p class="section-desc">Full placement table with filters and search</p>
+        </div>
+
+        <div class="chart-card">
+          <div class="table-toolbar">
+            <div class="filters">
+              <select id="branchFilter">
+                <option value="ALL">All Branches</option>
+              </select>
+              <select id="statusFilter">
+                <option value="ALL">All Students</option>
+                <option value="Yes">Placed</option>
+                <option value="No">Not Placed</option>
+              </select>
+              <select id="offerFilter">
+                <option value="ALL">All Offer Types</option>
+                <option value="On-Campus">On-Campus</option>
+                <option value="Off-Campus">Off-Campus</option>
+              </select>
+              <input type="search" id="searchBox" placeholder="Search name or company…" />
+            </div>
+            <span class="table-count" id="tableCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table id="studentTable">
+              <thead>
+                <tr>
+                  <th class="sortable" data-col="student_id">ID <span class="sort-icon">↕</span></th>
+                  <th class="sortable" data-col="name">Name <span class="sort-icon">↕</span></th>
+                  <th class="sortable" data-col="branch">Branch <span class="sort-icon">↕</span></th>
+                  <th class="sortable" data-col="cgpa">CGPA <span class="sort-icon">↕</span></th>
+                  <th>Status</th>
+                  <th class="sortable" data-col="company">Company <span class="sort-icon">↕</span></th>
+                  <th class="sortable" data-col="package_lpa">Package (LPA) <span class="sort-icon">↕</span></th>
+                  <th>Offer Type</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div><!-- /.layout -->
+
+  <script src="script.js"></script>
+</body>
+</html>

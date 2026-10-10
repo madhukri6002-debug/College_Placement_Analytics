@@ -1,0 +1,61 @@
+student_id,name,branch,cgpa,placed,company,package_lpa,offer_type
+S001,Aarav Sharma,CSE,9.2,Yes,TCS,12.5,On-Campus
+S002,Bhavna Patel,CSE,8.7,Yes,Infosys,8.0,On-Campus
+S003,Chetan Mehta,CSE,7.5,Yes,Wipro,6.5,On-Campus
+S004,Divya Nair,CSE,9.5,Yes,Google,45.0,Off-Campus
+S005,Eshan Gupta,CSE,6.8,No,,0,Not Placed
+S006,Farida Khan,CSE,8.1,Yes,Accenture,7.5,On-Campus
+S007,Gaurav Singh,CSE,9.0,Yes,Microsoft,38.0,Off-Campus
+S008,Heena Joshi,CSE,7.2,Yes,Cognizant,5.5,On-Campus
+S009,Ishaan Verma,CSE,8.5,Yes,Amazon,32.0,Off-Campus
+S010,Jyoti Rao,CSE,6.5,No,,0,Not Placed
+S011,Karan Malhotra,ECE,8.8,Yes,Samsung,10.0,On-Campus
+S012,Lavanya Iyer,ECE,7.6,Yes,Qualcomm,14.0,Off-Campus
+S013,Manish Kumar,ECE,6.9,No,,0,Not Placed
+S014,Neha Sinha,ECE,9.1,Yes,Intel,18.0,Off-Campus
+S015,Om Prakash,ECE,7.8,Yes,TCS,7.5,On-Campus
+S016,Pooja Dubey,ECE,8.3,Yes,Infosys,8.0,On-Campus
+S017,Qasim Ansari,ECE,7.1,Yes,Wipro,6.0,On-Campus
+S018,Ritika Bansal,ECE,8.6,Yes,HCL,9.5,On-Campus
+S019,Siddharth Tiwari,ECE,6.7,No,,0,Not Placed
+S020,Tanvi Bose,ECE,9.3,Yes,Texas Instruments,22.0,Off-Campus
+S021,Ujjwal Das,ME,7.4,Yes,Tata Motors,6.0,On-Campus
+S022,Vandana Mishra,ME,8.0,Yes,L&T,8.5,On-Campus
+S023,Waqar Ahmed,ME,6.6,No,,0,Not Placed
+S024,Xena Thomas,ME,7.9,Yes,Mahindra,7.0,On-Campus
+S025,Yash Choudhary,ME,8.4,Yes,Bosch,10.0,Off-Campus
+S026,Zara Sheikh,ME,6.3,No,,0,Not Placed
+S027,Aditya Pillai,ME,7.7,Yes,BHEL,5.5,On-Campus
+S028,Bhoomika Reddy,ME,8.2,Yes,Siemens,11.0,Off-Campus
+S029,Chirag Jain,ME,7.0,Yes,Maruti,6.5,On-Campus
+S030,Deepika Sethi,ME,9.0,Yes,ABB,13.0,Off-Campus
+S031,Ekta Nanda,CE,7.5,Yes,L&T Construction,7.0,On-Campus
+S032,Faiz Mohammad,CE,8.1,Yes,Afcons,8.0,On-Campus
+S033,Garima Tripathi,CE,6.4,No,,0,Not Placed
+S034,Himanshu Yadav,CE,7.8,Yes,Gammon India,7.5,On-Campus
+S035,Isha Kapoor,CE,8.5,Yes,NCC Ltd,9.0,On-Campus
+S036,Jagdish Bhatt,CE,6.9,No,,0,Not Placed
+S037,Kavita Arora,CE,7.2,Yes,Shapoorji,6.5,On-Campus
+S038,Lalit Mohan,CE,8.7,Yes,Godrej,10.5,Off-Campus
+S039,Meera Pillai,CE,7.6,Yes,AECOM,9.0,Off-Campus
+S040,Nikhil Saxena,CE,9.2,Yes,Larsen,15.0,Off-Campus
+S041,Omkar Desai,EE,7.3,Yes,NTPC,8.0,On-Campus
+S042,Pallavi Ghosh,EE,8.4,Yes,BHEL,9.5,On-Campus
+S043,Rahul Tomar,EE,6.5,No,,0,Not Placed
+S044,Shreya Kulkarni,EE,9.0,Yes,Siemens,12.0,Off-Campus
+S045,Tarun Bajaj,EE,7.6,Yes,ABB,9.0,On-Campus
+S046,Uma Krishnan,EE,8.1,Yes,Schneider,8.5,On-Campus
+S047,Vikas Pandey,EE,6.8,No,,0,Not Placed
+S048,Wendy Fernandez,EE,7.9,Yes,POWERGRID,10.0,On-Campus
+S049,Xavier Menezes,EE,8.6,Yes,Tata Power,11.5,Off-Campus
+S050,Yasmin Shaikh,EE,9.4,Yes,GE,20.0,Off-Campus
+S051,Akash Agarwal,IT,9.1,Yes,Flipkart,28.0,Off-Campus
+S052,Bindu Nayak,IT,7.8,Yes,Infosys,8.0,On-Campus
+S053,Chandni Roy,IT,8.3,Yes,Wipro,7.5,On-Campus
+S054,Dhruv Mehra,IT,6.7,No,,0,Not Placed
+S055,Esha Rawat,IT,9.3,Yes,Myntra,22.0,Off-Campus
+S056,Firoz Shaikh,IT,7.5,Yes,TCS,6.5,On-Campus
+S057,Gargi Chattopadhyay,IT,8.0,Yes,Accenture,8.0,On-Campus
+S058,Harshit Sharma,IT,8.8,Yes,Zomato,18.0,Off-Campus
+S059,Iqra Hussain,IT,7.2,Yes,Cognizant,6.0,On-Campus
+S060,Janak Patel,IT,6.9,No,,0,Not Placed

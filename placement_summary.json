@@ -1,0 +1,1062 @@
+{
+  "_note": "SAMPLE DATA \u2014 for demonstration purposes only. Not real placement records.",
+  "overall": {
+    "total_students": 60,
+    "placed_students": 48,
+    "unplaced_students": 12,
+    "placement_rate_pct": 80.0,
+    "average_package_lpa": 12.14,
+    "highest_package_lpa": 45.0,
+    "lowest_package_lpa": 5.5
+  },
+  "branch_wise": {
+    "CE": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 9.06,
+      "highest_package_lpa": 15.0
+    },
+    "CSE": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 19.38,
+      "highest_package_lpa": 45.0
+    },
+    "ECE": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 11.88,
+      "highest_package_lpa": 22.0
+    },
+    "EE": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 11.06,
+      "highest_package_lpa": 20.0
+    },
+    "IT": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 13.0,
+      "highest_package_lpa": 28.0
+    },
+    "ME": {
+      "total_students": 10,
+      "placed_students": 8,
+      "placement_rate_pct": 80.0,
+      "average_package_lpa": 8.44,
+      "highest_package_lpa": 13.0
+    }
+  },
+  "top_recruiters": [
+    {
+      "company": "TCS",
+      "students_hired": 3
+    },
+    {
+      "company": "Infosys",
+      "students_hired": 3
+    },
+    {
+      "company": "Wipro",
+      "students_hired": 3
+    },
+    {
+      "company": "Accenture",
+      "students_hired": 2
+    },
+    {
+      "company": "Cognizant",
+      "students_hired": 2
+    },
+    {
+      "company": "BHEL",
+      "students_hired": 2
+    },
+    {
+      "company": "Siemens",
+      "students_hired": 2
+    },
+    {
+      "company": "ABB",
+      "students_hired": 2
+    },
+    {
+      "company": "Google",
+      "students_hired": 1
+    },
+    {
+      "company": "Microsoft",
+      "students_hired": 1
+    },
+    {
+      "company": "Amazon",
+      "students_hired": 1
+    },
+    {
+      "company": "Samsung",
+      "students_hired": 1
+    },
+    {
+      "company": "Qualcomm",
+      "students_hired": 1
+    },
+    {
+      "company": "Intel",
+      "students_hired": 1
+    },
+    {
+      "company": "HCL",
+      "students_hired": 1
+    }
+  ],
+  "cgpa_vs_salary": [
+    {
+      "student_id": "S001",
+      "name": "Aarav Sharma",
+      "branch": "CSE",
+      "cgpa": 9.2,
+      "package_lpa": 12.5
+    },
+    {
+      "student_id": "S002",
+      "name": "Bhavna Patel",
+      "branch": "CSE",
+      "cgpa": 8.7,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S003",
+      "name": "Chetan Mehta",
+      "branch": "CSE",
+      "cgpa": 7.5,
+      "package_lpa": 6.5
+    },
+    {
+      "student_id": "S004",
+      "name": "Divya Nair",
+      "branch": "CSE",
+      "cgpa": 9.5,
+      "package_lpa": 45.0
+    },
+    {
+      "student_id": "S006",
+      "name": "Farida Khan",
+      "branch": "CSE",
+      "cgpa": 8.1,
+      "package_lpa": 7.5
+    },
+    {
+      "student_id": "S007",
+      "name": "Gaurav Singh",
+      "branch": "CSE",
+      "cgpa": 9.0,
+      "package_lpa": 38.0
+    },
+    {
+      "student_id": "S008",
+      "name": "Heena Joshi",
+      "branch": "CSE",
+      "cgpa": 7.2,
+      "package_lpa": 5.5
+    },
+    {
+      "student_id": "S009",
+      "name": "Ishaan Verma",
+      "branch": "CSE",
+      "cgpa": 8.5,
+      "package_lpa": 32.0
+    },
+    {
+      "student_id": "S011",
+      "name": "Karan Malhotra",
+      "branch": "ECE",
+      "cgpa": 8.8,
+      "package_lpa": 10.0
+    },
+    {
+      "student_id": "S012",
+      "name": "Lavanya Iyer",
+      "branch": "ECE",
+      "cgpa": 7.6,
+      "package_lpa": 14.0
+    },
+    {
+      "student_id": "S014",
+      "name": "Neha Sinha",
+      "branch": "ECE",
+      "cgpa": 9.1,
+      "package_lpa": 18.0
+    },
+    {
+      "student_id": "S015",
+      "name": "Om Prakash",
+      "branch": "ECE",
+      "cgpa": 7.8,
+      "package_lpa": 7.5
+    },
+    {
+      "student_id": "S016",
+      "name": "Pooja Dubey",
+      "branch": "ECE",
+      "cgpa": 8.3,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S017",
+      "name": "Qasim Ansari",
+      "branch": "ECE",
+      "cgpa": 7.1,
+      "package_lpa": 6.0
+    },
+    {
+      "student_id": "S018",
+      "name": "Ritika Bansal",
+      "branch": "ECE",
+      "cgpa": 8.6,
+      "package_lpa": 9.5
+    },
+    {
+      "student_id": "S020",
+      "name": "Tanvi Bose",
+      "branch": "ECE",
+      "cgpa": 9.3,
+      "package_lpa": 22.0
+    },
+    {
+      "student_id": "S021",
+      "name": "Ujjwal Das",
+      "branch": "ME",
+      "cgpa": 7.4,
+      "package_lpa": 6.0
+    },
+    {
+      "student_id": "S022",
+      "name": "Vandana Mishra",
+      "branch": "ME",
+      "cgpa": 8.0,
+      "package_lpa": 8.5
+    },
+    {
+      "student_id": "S024",
+      "name": "Xena Thomas",
+      "branch": "ME",
+      "cgpa": 7.9,
+      "package_lpa": 7.0
+    },
+    {
+      "student_id": "S025",
+      "name": "Yash Choudhary",
+      "branch": "ME",
+      "cgpa": 8.4,
+      "package_lpa": 10.0
+    },
+    {
+      "student_id": "S027",
+      "name": "Aditya Pillai",
+      "branch": "ME",
+      "cgpa": 7.7,
+      "package_lpa": 5.5
+    },
+    {
+      "student_id": "S028",
+      "name": "Bhoomika Reddy",
+      "branch": "ME",
+      "cgpa": 8.2,
+      "package_lpa": 11.0
+    },
+    {
+      "student_id": "S029",
+      "name": "Chirag Jain",
+      "branch": "ME",
+      "cgpa": 7.0,
+      "package_lpa": 6.5
+    },
+    {
+      "student_id": "S030",
+      "name": "Deepika Sethi",
+      "branch": "ME",
+      "cgpa": 9.0,
+      "package_lpa": 13.0
+    },
+    {
+      "student_id": "S031",
+      "name": "Ekta Nanda",
+      "branch": "CE",
+      "cgpa": 7.5,
+      "package_lpa": 7.0
+    },
+    {
+      "student_id": "S032",
+      "name": "Faiz Mohammad",
+      "branch": "CE",
+      "cgpa": 8.1,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S034",
+      "name": "Himanshu Yadav",
+      "branch": "CE",
+      "cgpa": 7.8,
+      "package_lpa": 7.5
+    },
+    {
+      "student_id": "S035",
+      "name": "Isha Kapoor",
+      "branch": "CE",
+      "cgpa": 8.5,
+      "package_lpa": 9.0
+    },
+    {
+      "student_id": "S037",
+      "name": "Kavita Arora",
+      "branch": "CE",
+      "cgpa": 7.2,
+      "package_lpa": 6.5
+    },
+    {
+      "student_id": "S038",
+      "name": "Lalit Mohan",
+      "branch": "CE",
+      "cgpa": 8.7,
+      "package_lpa": 10.5
+    },
+    {
+      "student_id": "S039",
+      "name": "Meera Pillai",
+      "branch": "CE",
+      "cgpa": 7.6,
+      "package_lpa": 9.0
+    },
+    {
+      "student_id": "S040",
+      "name": "Nikhil Saxena",
+      "branch": "CE",
+      "cgpa": 9.2,
+      "package_lpa": 15.0
+    },
+    {
+      "student_id": "S041",
+      "name": "Omkar Desai",
+      "branch": "EE",
+      "cgpa": 7.3,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S042",
+      "name": "Pallavi Ghosh",
+      "branch": "EE",
+      "cgpa": 8.4,
+      "package_lpa": 9.5
+    },
+    {
+      "student_id": "S044",
+      "name": "Shreya Kulkarni",
+      "branch": "EE",
+      "cgpa": 9.0,
+      "package_lpa": 12.0
+    },
+    {
+      "student_id": "S045",
+      "name": "Tarun Bajaj",
+      "branch": "EE",
+      "cgpa": 7.6,
+      "package_lpa": 9.0
+    },
+    {
+      "student_id": "S046",
+      "name": "Uma Krishnan",
+      "branch": "EE",
+      "cgpa": 8.1,
+      "package_lpa": 8.5
+    },
+    {
+      "student_id": "S048",
+      "name": "Wendy Fernandez",
+      "branch": "EE",
+      "cgpa": 7.9,
+      "package_lpa": 10.0
+    },
+    {
+      "student_id": "S049",
+      "name": "Xavier Menezes",
+      "branch": "EE",
+      "cgpa": 8.6,
+      "package_lpa": 11.5
+    },
+    {
+      "student_id": "S050",
+      "name": "Yasmin Shaikh",
+      "branch": "EE",
+      "cgpa": 9.4,
+      "package_lpa": 20.0
+    },
+    {
+      "student_id": "S051",
+      "name": "Akash Agarwal",
+      "branch": "IT",
+      "cgpa": 9.1,
+      "package_lpa": 28.0
+    },
+    {
+      "student_id": "S052",
+      "name": "Bindu Nayak",
+      "branch": "IT",
+      "cgpa": 7.8,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S053",
+      "name": "Chandni Roy",
+      "branch": "IT",
+      "cgpa": 8.3,
+      "package_lpa": 7.5
+    },
+    {
+      "student_id": "S055",
+      "name": "Esha Rawat",
+      "branch": "IT",
+      "cgpa": 9.3,
+      "package_lpa": 22.0
+    },
+    {
+      "student_id": "S056",
+      "name": "Firoz Shaikh",
+      "branch": "IT",
+      "cgpa": 7.5,
+      "package_lpa": 6.5
+    },
+    {
+      "student_id": "S057",
+      "name": "Gargi Chattopadhyay",
+      "branch": "IT",
+      "cgpa": 8.0,
+      "package_lpa": 8.0
+    },
+    {
+      "student_id": "S058",
+      "name": "Harshit Sharma",
+      "branch": "IT",
+      "cgpa": 8.8,
+      "package_lpa": 18.0
+    },
+    {
+      "student_id": "S059",
+      "name": "Iqra Hussain",
+      "branch": "IT",
+      "cgpa": 7.2,
+      "package_lpa": 6.0
+    }
+  ],
+  "offer_type_split": {
+    "On-Campus": 30,
+    "Off-Campus": 18
+  },
+  "students": [
+    {
+      "student_id": "S001",
+      "name": "Aarav Sharma",
+      "branch": "CSE",
+      "cgpa": 9.2,
+      "placed": true,
+      "company": "TCS",
+      "package_lpa": 12.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S002",
+      "name": "Bhavna Patel",
+      "branch": "CSE",
+      "cgpa": 8.7,
+      "placed": true,
+      "company": "Infosys",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S003",
+      "name": "Chetan Mehta",
+      "branch": "CSE",
+      "cgpa": 7.5,
+      "placed": true,
+      "company": "Wipro",
+      "package_lpa": 6.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S004",
+      "name": "Divya Nair",
+      "branch": "CSE",
+      "cgpa": 9.5,
+      "placed": true,
+      "company": "Google",
+      "package_lpa": 45.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S005",
+      "name": "Eshan Gupta",
+      "branch": "CSE",
+      "cgpa": 6.8,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S006",
+      "name": "Farida Khan",
+      "branch": "CSE",
+      "cgpa": 8.1,
+      "placed": true,
+      "company": "Accenture",
+      "package_lpa": 7.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S007",
+      "name": "Gaurav Singh",
+      "branch": "CSE",
+      "cgpa": 9.0,
+      "placed": true,
+      "company": "Microsoft",
+      "package_lpa": 38.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S008",
+      "name": "Heena Joshi",
+      "branch": "CSE",
+      "cgpa": 7.2,
+      "placed": true,
+      "company": "Cognizant",
+      "package_lpa": 5.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S009",
+      "name": "Ishaan Verma",
+      "branch": "CSE",
+      "cgpa": 8.5,
+      "placed": true,
+      "company": "Amazon",
+      "package_lpa": 32.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S010",
+      "name": "Jyoti Rao",
+      "branch": "CSE",
+      "cgpa": 6.5,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S011",
+      "name": "Karan Malhotra",
+      "branch": "ECE",
+      "cgpa": 8.8,
+      "placed": true,
+      "company": "Samsung",
+      "package_lpa": 10.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S012",
+      "name": "Lavanya Iyer",
+      "branch": "ECE",
+      "cgpa": 7.6,
+      "placed": true,
+      "company": "Qualcomm",
+      "package_lpa": 14.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S013",
+      "name": "Manish Kumar",
+      "branch": "ECE",
+      "cgpa": 6.9,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S014",
+      "name": "Neha Sinha",
+      "branch": "ECE",
+      "cgpa": 9.1,
+      "placed": true,
+      "company": "Intel",
+      "package_lpa": 18.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S015",
+      "name": "Om Prakash",
+      "branch": "ECE",
+      "cgpa": 7.8,
+      "placed": true,
+      "company": "TCS",
+      "package_lpa": 7.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S016",
+      "name": "Pooja Dubey",
+      "branch": "ECE",
+      "cgpa": 8.3,
+      "placed": true,
+      "company": "Infosys",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S017",
+      "name": "Qasim Ansari",
+      "branch": "ECE",
+      "cgpa": 7.1,
+      "placed": true,
+      "company": "Wipro",
+      "package_lpa": 6.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S018",
+      "name": "Ritika Bansal",
+      "branch": "ECE",
+      "cgpa": 8.6,
+      "placed": true,
+      "company": "HCL",
+      "package_lpa": 9.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S019",
+      "name": "Siddharth Tiwari",
+      "branch": "ECE",
+      "cgpa": 6.7,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S020",
+      "name": "Tanvi Bose",
+      "branch": "ECE",
+      "cgpa": 9.3,
+      "placed": true,
+      "company": "Texas Instruments",
+      "package_lpa": 22.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S021",
+      "name": "Ujjwal Das",
+      "branch": "ME",
+      "cgpa": 7.4,
+      "placed": true,
+      "company": "Tata Motors",
+      "package_lpa": 6.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S022",
+      "name": "Vandana Mishra",
+      "branch": "ME",
+      "cgpa": 8.0,
+      "placed": true,
+      "company": "L&T",
+      "package_lpa": 8.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S023",
+      "name": "Waqar Ahmed",
+      "branch": "ME",
+      "cgpa": 6.6,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S024",
+      "name": "Xena Thomas",
+      "branch": "ME",
+      "cgpa": 7.9,
+      "placed": true,
+      "company": "Mahindra",
+      "package_lpa": 7.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S025",
+      "name": "Yash Choudhary",
+      "branch": "ME",
+      "cgpa": 8.4,
+      "placed": true,
+      "company": "Bosch",
+      "package_lpa": 10.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S026",
+      "name": "Zara Sheikh",
+      "branch": "ME",
+      "cgpa": 6.3,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S027",
+      "name": "Aditya Pillai",
+      "branch": "ME",
+      "cgpa": 7.7,
+      "placed": true,
+      "company": "BHEL",
+      "package_lpa": 5.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S028",
+      "name": "Bhoomika Reddy",
+      "branch": "ME",
+      "cgpa": 8.2,
+      "placed": true,
+      "company": "Siemens",
+      "package_lpa": 11.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S029",
+      "name": "Chirag Jain",
+      "branch": "ME",
+      "cgpa": 7.0,
+      "placed": true,
+      "company": "Maruti",
+      "package_lpa": 6.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S030",
+      "name": "Deepika Sethi",
+      "branch": "ME",
+      "cgpa": 9.0,
+      "placed": true,
+      "company": "ABB",
+      "package_lpa": 13.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S031",
+      "name": "Ekta Nanda",
+      "branch": "CE",
+      "cgpa": 7.5,
+      "placed": true,
+      "company": "L&T Construction",
+      "package_lpa": 7.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S032",
+      "name": "Faiz Mohammad",
+      "branch": "CE",
+      "cgpa": 8.1,
+      "placed": true,
+      "company": "Afcons",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S033",
+      "name": "Garima Tripathi",
+      "branch": "CE",
+      "cgpa": 6.4,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S034",
+      "name": "Himanshu Yadav",
+      "branch": "CE",
+      "cgpa": 7.8,
+      "placed": true,
+      "company": "Gammon India",
+      "package_lpa": 7.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S035",
+      "name": "Isha Kapoor",
+      "branch": "CE",
+      "cgpa": 8.5,
+      "placed": true,
+      "company": "NCC Ltd",
+      "package_lpa": 9.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S036",
+      "name": "Jagdish Bhatt",
+      "branch": "CE",
+      "cgpa": 6.9,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S037",
+      "name": "Kavita Arora",
+      "branch": "CE",
+      "cgpa": 7.2,
+      "placed": true,
+      "company": "Shapoorji",
+      "package_lpa": 6.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S038",
+      "name": "Lalit Mohan",
+      "branch": "CE",
+      "cgpa": 8.7,
+      "placed": true,
+      "company": "Godrej",
+      "package_lpa": 10.5,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S039",
+      "name": "Meera Pillai",
+      "branch": "CE",
+      "cgpa": 7.6,
+      "placed": true,
+      "company": "AECOM",
+      "package_lpa": 9.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S040",
+      "name": "Nikhil Saxena",
+      "branch": "CE",
+      "cgpa": 9.2,
+      "placed": true,
+      "company": "Larsen",
+      "package_lpa": 15.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S041",
+      "name": "Omkar Desai",
+      "branch": "EE",
+      "cgpa": 7.3,
+      "placed": true,
+      "company": "NTPC",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S042",
+      "name": "Pallavi Ghosh",
+      "branch": "EE",
+      "cgpa": 8.4,
+      "placed": true,
+      "company": "BHEL",
+      "package_lpa": 9.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S043",
+      "name": "Rahul Tomar",
+      "branch": "EE",
+      "cgpa": 6.5,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S044",
+      "name": "Shreya Kulkarni",
+      "branch": "EE",
+      "cgpa": 9.0,
+      "placed": true,
+      "company": "Siemens",
+      "package_lpa": 12.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S045",
+      "name": "Tarun Bajaj",
+      "branch": "EE",
+      "cgpa": 7.6,
+      "placed": true,
+      "company": "ABB",
+      "package_lpa": 9.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S046",
+      "name": "Uma Krishnan",
+      "branch": "EE",
+      "cgpa": 8.1,
+      "placed": true,
+      "company": "Schneider",
+      "package_lpa": 8.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S047",
+      "name": "Vikas Pandey",
+      "branch": "EE",
+      "cgpa": 6.8,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S048",
+      "name": "Wendy Fernandez",
+      "branch": "EE",
+      "cgpa": 7.9,
+      "placed": true,
+      "company": "POWERGRID",
+      "package_lpa": 10.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S049",
+      "name": "Xavier Menezes",
+      "branch": "EE",
+      "cgpa": 8.6,
+      "placed": true,
+      "company": "Tata Power",
+      "package_lpa": 11.5,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S050",
+      "name": "Yasmin Shaikh",
+      "branch": "EE",
+      "cgpa": 9.4,
+      "placed": true,
+      "company": "GE",
+      "package_lpa": 20.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S051",
+      "name": "Akash Agarwal",
+      "branch": "IT",
+      "cgpa": 9.1,
+      "placed": true,
+      "company": "Flipkart",
+      "package_lpa": 28.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S052",
+      "name": "Bindu Nayak",
+      "branch": "IT",
+      "cgpa": 7.8,
+      "placed": true,
+      "company": "Infosys",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S053",
+      "name": "Chandni Roy",
+      "branch": "IT",
+      "cgpa": 8.3,
+      "placed": true,
+      "company": "Wipro",
+      "package_lpa": 7.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S054",
+      "name": "Dhruv Mehra",
+      "branch": "IT",
+      "cgpa": 6.7,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    },
+    {
+      "student_id": "S055",
+      "name": "Esha Rawat",
+      "branch": "IT",
+      "cgpa": 9.3,
+      "placed": true,
+      "company": "Myntra",
+      "package_lpa": 22.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S056",
+      "name": "Firoz Shaikh",
+      "branch": "IT",
+      "cgpa": 7.5,
+      "placed": true,
+      "company": "TCS",
+      "package_lpa": 6.5,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S057",
+      "name": "Gargi Chattopadhyay",
+      "branch": "IT",
+      "cgpa": 8.0,
+      "placed": true,
+      "company": "Accenture",
+      "package_lpa": 8.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S058",
+      "name": "Harshit Sharma",
+      "branch": "IT",
+      "cgpa": 8.8,
+      "placed": true,
+      "company": "Zomato",
+      "package_lpa": 18.0,
+      "offer_type": "Off-Campus"
+    },
+    {
+      "student_id": "S059",
+      "name": "Iqra Hussain",
+      "branch": "IT",
+      "cgpa": 7.2,
+      "placed": true,
+      "company": "Cognizant",
+      "package_lpa": 6.0,
+      "offer_type": "On-Campus"
+    },
+    {
+      "student_id": "S060",
+      "name": "Janak Patel",
+      "branch": "IT",
+      "cgpa": 6.9,
+      "placed": false,
+      "company": "\u2014",
+      "package_lpa": 0,
+      "offer_type": "\u2014"
+    }
+  ]
+}
